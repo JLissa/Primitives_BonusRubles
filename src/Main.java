@@ -9,7 +9,7 @@ public class Main {
         int totalScore;
         int totalScoreBonus;
 
-        if (addingAmount >= 1000) {
+        if (addingAmount > 1000) {
             totalScoreBonus = startingScore + addingAmount + amountRubleBonus;
             System.out.println(totalScoreBonus);
         } else {
